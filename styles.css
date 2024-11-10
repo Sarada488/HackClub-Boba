@@ -6,14 +6,45 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 button {
   all: unset;
   padding: 5px 10px;
-  border: black 1px solid;
+  border: rgb(134, 20, 90) 1px solid;
   cursor: pointer;
   user-select: none;
+  border-radius:50%;
 }
 
+
 button:hover {
-  background-color: lightgray;
+  background-color: rgb(255, 0, 106);
 }
+
+
+.pink {
+  color: rgb(233, 0, 175);
+}
+.orange{
+  color: orange;
+}
+
+
+.column{
+  float:left;
+}
+.row::after{
+  content:"   ";
+  clear: both;
+  display:table;
+}
+
+
+.sticky{
+  position:sticky;
+  top:0;
+}
+
+
+
+
